@@ -38,5 +38,5 @@ window.addEventListener('load', function() {
 })
 
 window.addEventListener('load', function() {
-    console.log('are you listening');
+//    console.log('are you listening');
 })
