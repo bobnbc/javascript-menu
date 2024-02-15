@@ -8,10 +8,10 @@ let menuItems = [
 
 let urls = [
     "index.html",
-    "samples.html",
+    "portfolio.html",
     "https://www.emmys.com/",
-    "about.php",
-    "contact.php"
+    "about.html",
+    "contact.html"
 ];
 
 window.onload = function() {
