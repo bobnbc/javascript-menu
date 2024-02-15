@@ -1,0 +1,120 @@
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 1em;
+    position: relative;
+    box-sizing: border-box;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: inherit;
+    /**** SANDBOX ***
+    background-color: #0044C9;
+    background-size: cover;
+    background-attachment: local;
+    background-size: 215%;
+    background-color: rgba(255, 255, 255, 0.5);
+    */
+}
+
+.nav {
+    padding: 5px;
+    position: inherit;
+}
+
+.main {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.clicked {
+    color = white;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+
+}
+
+ul {
+    list-style: none;
+}
+
+/* Style for the horizontal menu */
+ul.horizontal-menu {
+    display:flex;
+}
+
+/* Style for each menu item */
+ul.horizontal-menu a{
+    color:palegreen;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+/* Style for hover effect on links */
+ul.horizontal-menu a:hover {
+    text-decoration: underline;
+    color: #28a745; /* Set color for URLs*/ 
+}
+
+  /* Media query for responsive layout */
+@media only screen and (max-width: 600px) {
+    ul.horizontal-menu {
+      flex-direction: column;
+      align-items: stretch;
+    }
+}
+    
+#menu {
+    text-align: left;
+    color: #FFB934;
+}
+
+#donate {
+    cursor: pointer;
+}
+
+#volunteer {
+    cursor: pointer;
+}
+
+footer {
+    color: #fff;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+
+  .social-media-links {
+    list-style: none;
+    padding: 0;
+  }
+
+  .social-media-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .social-media-links a {
+    text-decoration: none;
+    color: #fff;
+  }
