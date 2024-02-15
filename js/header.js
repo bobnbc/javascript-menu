@@ -14,7 +14,7 @@ let urls = [
     "contact.html"
 ];
 
-window.onload = function() {
+window.addEventListener('load', function() {
     /*menu elements and loop*/
     let index = 0;
     let menuElement = document.getElementById('menu');
@@ -35,4 +35,8 @@ window.onload = function() {
             li.setAttribute('a', urls[index]);
             ulElement.appendChild(linkElement);
     });
-}
+})
+
+window.addEventListener('load', function() {
+    console.log('are you listening');
+})
